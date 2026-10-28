@@ -1,0 +1,7 @@
+.sectionLead {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  color: var(--light-stone);
+  max-width: 640px;
+  line-height: 1.7;
+}

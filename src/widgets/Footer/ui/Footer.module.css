@@ -1,0 +1,21 @@
+.footer {
+  border-top: 1px solid rgba(201, 168, 76, 0.15);
+  padding: 40px 0;
+}
+
+.footerLogo {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--gold);
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+
+.footerCopy {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  color: var(--stone);
+  font-size: 0.85rem;
+}

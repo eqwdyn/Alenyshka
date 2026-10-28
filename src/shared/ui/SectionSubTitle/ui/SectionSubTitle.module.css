@@ -1,0 +1,7 @@
+.sectionSubtitle {
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  color: var(--gold);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,15 @@
+.sectionTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--cream);
+  margin-bottom: 0.4em;
+}
+
+@media (max-width: 600px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}

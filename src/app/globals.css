@@ -1,6 +1,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --bg-dark: #181210;
+  --bg-card: #221e1a;
+  --gold: #c9a84c;
+  --cream: #f2e6c2;
+  --stone: #6e6056;
+  --light-stone: #dbcbb8;
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-body: var(--font-cormorant), "Georgia", serif;
 }
 
 @media (prefers-color-scheme: dark) {

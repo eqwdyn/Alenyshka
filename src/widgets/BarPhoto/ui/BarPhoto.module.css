@@ -1,0 +1,12 @@
+.photoStrip {
+  position: relative;
+  height: 420px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.photoStripImage {
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.78) contrast(1.05);
+}
