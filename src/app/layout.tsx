@@ -31,7 +31,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Алёнушка — семейное кафе в Севастополе",
+  title: "Алёнушка",
   description:
     "Уютное семейное кафе Алёнушка: блины, горячие блюда, паста и напитки. Севастополь, сквер 60-летия СССР.",
 };
