@@ -5,8 +5,6 @@ import { Menu } from "@widgets/Menu";
 import { Contact } from "@widgets/Contact";
 import { BarPhoto } from "@widgets/BarPhoto";
 
-export const runtime = "edge";
-
 export default function AleyushkaLanding() {
   return (
     <div className={cl.root}>
