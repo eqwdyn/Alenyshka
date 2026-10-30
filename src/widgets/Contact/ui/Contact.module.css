@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
-  align-items: start;
+  align-items: center;
 }
 
 .address p {
@@ -49,4 +49,8 @@
     grid-template-columns: 1fr;
     gap: 36px;
   }
+}
+
+.tablichkaWrapper {
+  max-width: 400px;
 }

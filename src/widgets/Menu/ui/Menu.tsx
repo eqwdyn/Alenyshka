@@ -3,7 +3,7 @@ import { Section } from "@shared/ui/Section";
 import { SectionTitle } from "@shared/ui/SectionTitle";
 import { SectionSubTitle } from "@shared/ui/SectionSubTitle";
 import { ContentContainer } from "@shared/ui/ContentContainer";
-import { MenuCard } from "../../../shared/ui/MenuCard/ui/MenuCard";
+import { MenuCard } from "@shared/ui/MenuCard/ui/MenuCard";
 
 export const Menu = ({}) => {
   return (
@@ -37,7 +37,7 @@ export const Menu = ({}) => {
               { name: "Утка «Гарри» (с яблоками)", price: 750 },
               { name: "Шашлык из курицы с соусом", price: 550 },
               { name: "Шашлык из свинины с аджикой", price: 600 },
-              { name: "Мясо в оранжевых соусом", price: 550 },
+              { name: "Мясо в оранжевом соусе", price: 550 },
             ]}
           />
 

@@ -2,6 +2,7 @@ import { Section } from "@shared/ui/Section";
 import cl from "./Contact.module.css";
 import { SectionTitle } from "@shared/ui/SectionTitle";
 import { ContentContainer } from "@shared/ui/ContentContainer";
+import { Tablichka } from "../components/Tablichka";
 
 export const Contact = ({}) => {
   return (
@@ -28,10 +29,12 @@ export const Contact = ({}) => {
           </address>
         </div>
 
-        <div className={cl.mapCard}>
-          <h3>Алёнушка</h3>
-          <p>Севастополь, сквер 60-летия СССР</p>
-          <p>+7 (978) 832-36-85</p>
+        <div className={cl.tablichkaWrapper}>
+          <Tablichka>
+            НУЖЕН
+            <br />
+            БАРМЕН
+          </Tablichka>
         </div>
       </ContentContainer>
     </Section>
